@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url('../images/gora_10.1.png') repeat-x;
+    font-family: "Comic Sans MS", sans-serif;
+    line-height: 200%;
+    font-size: medium;
+}
+
+#pojemnik {
+    width: 900px;
+    margin: 0 auto;
+    position: relative;
+    padding:0;
+    font-size: 80%;
+}
+
+#naglowek {
+    width: 430px;
+    height: 150px;
+    margin: 0;
+    padding: 0;
+    left: 290px;
+    position: relative;
+}
+
+#naglowek span {
+    width: 430px;
+    height: 150px;
+    margin: 0;
+    padding: 0;
+    background: url('../images/naglowek_10.1.png') no-repeat;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+#menuglowne {
+    margin: 0;
+    list-style: none;
+    font-size: 120%;
+    font-weight: bold;
+    text-align: center;
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#menuglowne li {
+    display: inline;
+    padding: 0;
+    margin: 0;
+}
+
+#menuglowne li a {
+    text-decoration: none;
+    padding-left: 1em;
+    padding-right: 1em;
+    white-space: nowrap;
+    color: black;
+}
+
+#menuglowne li a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+#tresc {
+    width: 200px;
+    margin: 0 auto;
+}

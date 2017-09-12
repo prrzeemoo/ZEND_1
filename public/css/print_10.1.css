@@ -1,0 +1,24 @@
+body {
+    font-family: Georgia, serif;
+    line-height: 200%;
+}
+
+#pojemnik {
+}
+
+#naglowek {
+    display: none;
+}
+
+#naglowek span {
+    display: none;
+}
+
+
+#menuglowne {
+    display: none;
+}
+
+
+#tresc {
+}

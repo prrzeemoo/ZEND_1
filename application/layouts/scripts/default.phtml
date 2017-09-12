@@ -1,21 +1,22 @@
-<!DOCTYPE>
+<!--//Przykład 10.1-->
+<?php echo $this->doctype() ?>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pl" lang="pl">
 <head>
-    <title>Gady</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <link rel="stylesheet" type="text/css" href="<?php echo $this->baseUrl('css/style2.css') ?>" />
+    <?php echo $this->headTitle($this->tytul) ?>
+    <?php echo $this->headLink() ?>
+    <?php echo $this->headScript() ?>
+    <?php echo $this->headMeta() ?>
 </head>
 <body>
 <div id="pojemnik">
-    <h1 id="logo">Gady w Polsce</h1>
-    <ul id="menu">
-        <li id="o1"><a href="<?php echo $this->url(array(), 'jaszczurka') ?>">jaszczurka zwinka</a></li>
-        <li id="o2"><a href="<?php echo $this->url(array(), 'zaskroniec') ?>">zaskroniec zwyczajny</a></li>
-        <li id="o3"><a href="<?php echo $this->url(array(), 'zmija') ?>">żmija zygzakowata</a></li>
-        <li id="o4"><a href="<?php echo $this->url(array(), 'zolw') ?>">żółw czerwonolicy</a></li>
+    <h1 id="naglowek">Piosenki dla dzieci<span>&nbsp;</span></h1>
+    <ul id="menuglowne">
+        <li><a href="<?php echo $this->url(array(), 'misie') ?>">Jadą, jadą misie</a></li>
+        <li><a href="<?php echo $this->url(array(), 'kolko') ?>">Kółko graniaste</a></li>
+        <li><a href="<?php echo $this->url(array(), 'ojciec') ?>">Ojciec i syn</a></li>
     </ul>
     <div id="tresc">
-        <?php echo $this->layout()->content ?>
+        <?php echo $this->layout()->content; ?>
     </div>
 </div>
 </body>
